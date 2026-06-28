@@ -79,6 +79,20 @@ Query parameters:
 - `year`: `2024`, `2023`, or `2022`
 - `threshold`: minimum monthly sales value to show
 
+## Vercel Deployment
+
+This project is now structured for Vercel to deploy from the repository root.
+
+Recommended Vercel settings:
+
+- Framework Preset: `Next.js`
+- Root Directory: leave blank, or use the repository root
+- Install Command: `npm install`
+- Build Command: `npm run build`
+- Output Directory: leave blank
+
+If Vercel was previously pointed at `sales-dashboard`, reset the Root Directory to the repository root and redeploy.
+
 ## GitHub Setup
 
 Create a new GitHub repository, then connect and push this project:

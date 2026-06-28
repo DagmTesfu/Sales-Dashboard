@@ -20,6 +20,9 @@
 # production
 /build
 
+# stale local folder from the original nested scaffold
+/sales-dashboard/
+
 # misc
 .DS_Store
 *.pem
